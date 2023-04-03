@@ -1,0 +1,59 @@
+body {
+  background-color: #333333;
+}
+
+#quote-box {
+  position: relative;
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  margin: 150px auto;
+}
+
+button {
+  background-color: #333333;
+  color: white;
+  border: 0px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+#new-quote {
+  position: absolute;
+  left: 75%;
+  bottom: 10%;
+  padding: 10px;
+}
+
+.tweet {
+  position: absolute;
+  left: 10%;
+  bottom: 12%;
+  padding: 9px;
+}
+.tweet a {
+  color: white;
+}
+
+#tweet-quote i {
+  font-size: 20px;
+}
+
+#text {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #333333;
+  font-weight: bold;
+}
+
+#author {
+  position: relative;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 20px;
+  left: 375px;
+}
